@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="14F1021" minimumToolsVersion="Xcode 7.0">
+    <entity name="Movie" representedClassName="Movie" syncable="YES">
+        <attribute name="mvAuthor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mvDetail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mvName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mvPicUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mvUrl" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Song" representedClassName="Song" syncable="YES">
+        <attribute name="albumUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="singerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="singerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="songId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="songName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="songPicUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="songUrl" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Song" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="Movie" positionX="-54" positionY="45" width="128" height="120"/>
+    </elements>
+</model>
